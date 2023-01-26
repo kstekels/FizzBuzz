@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		1535A1E32982726200FF398F /* FizzBuzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1E22982726200FF398F /* FizzBuzzApp.swift */; };
-		1535A1E52982726200FF398F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1E42982726200FF398F /* ContentView.swift */; };
 		1535A1E72982726500FF398F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1535A1E62982726500FF398F /* Assets.xcassets */; };
 		1535A1EA2982726600FF398F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1535A1E92982726500FF398F /* Preview Assets.xcassets */; };
+		1535A1F22982729C00FF398F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1F12982729C00FF398F /* MainView.swift */; };
+		1535A1F42982749800FF398F /* AboutVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1F32982749800FF398F /* AboutVIew.swift */; };
+		1535A1F62982759800FF398F /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1F52982759800FF398F /* BackgroundImageView.swift */; };
+		1535A1FC29827DE200FF398F /* NiceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1FB29827DE200FF398F /* NiceText.swift */; };
+		1535A1FE29827E4D00FF398F /* FizzBuzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1FD29827E4D00FF398F /* FizzBuzzView.swift */; };
+		1535A20029827FC800FF398F /* CodeCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1FF29827FC800FF398F /* CodeCreatorView.swift */; };
+		1535A2022982812500FF398F /* FizzBuzzAlgorithmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A2012982812500FF398F /* FizzBuzzAlgorithmModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1535A1DF2982726200FF398F /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1535A1E22982726200FF398F /* FizzBuzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzApp.swift; sourceTree = "<group>"; };
-		1535A1E42982726200FF398F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1535A1E62982726500FF398F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1535A1E92982726500FF398F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1535A1F12982729C00FF398F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1535A1F32982749800FF398F /* AboutVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVIew.swift; sourceTree = "<group>"; };
+		1535A1F52982759800FF398F /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		1535A1FB29827DE200FF398F /* NiceText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceText.swift; sourceTree = "<group>"; };
+		1535A1FD29827E4D00FF398F /* FizzBuzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzView.swift; sourceTree = "<group>"; };
+		1535A1FF29827FC800FF398F /* CodeCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCreatorView.swift; sourceTree = "<group>"; };
+		1535A2012982812500FF398F /* FizzBuzzAlgorithmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgorithmModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				1535A1E22982726200FF398F /* FizzBuzzApp.swift */,
-				1535A1E42982726200FF398F /* ContentView.swift */,
+				1535A1F7298275B000FF398F /* Model */,
+				1535A1F02982728200FF398F /* View */,
+				1535A1F8298275BC00FF398F /* ViewModel */,
 				1535A1E62982726500FF398F /* Assets.xcassets */,
 				1535A1E82982726500FF398F /* Preview Content */,
 			);
@@ -65,6 +79,50 @@
 				1535A1E92982726500FF398F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1535A1F02982728200FF398F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1535A1FA298275D300FF398F /* MainView */,
+				1535A1F9298275CB00FF398F /* SupportVIews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1535A1F7298275B000FF398F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1535A2012982812500FF398F /* FizzBuzzAlgorithmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1535A1F8298275BC00FF398F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1535A1F9298275CB00FF398F /* SupportVIews */ = {
+			isa = PBXGroup;
+			children = (
+				1535A1F52982759800FF398F /* BackgroundImageView.swift */,
+				1535A1FB29827DE200FF398F /* NiceText.swift */,
+			);
+			path = SupportVIews;
+			sourceTree = "<group>";
+		};
+		1535A1FA298275D300FF398F /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				1535A1F12982729C00FF398F /* MainView.swift */,
+				1535A1F32982749800FF398F /* AboutVIew.swift */,
+				1535A1FD29827E4D00FF398F /* FizzBuzzView.swift */,
+				1535A1FF29827FC800FF398F /* CodeCreatorView.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1535A1E52982726200FF398F /* ContentView.swift in Sources */,
+				1535A1FE29827E4D00FF398F /* FizzBuzzView.swift in Sources */,
+				1535A1F42982749800FF398F /* AboutVIew.swift in Sources */,
+				1535A20029827FC800FF398F /* CodeCreatorView.swift in Sources */,
+				1535A1FC29827DE200FF398F /* NiceText.swift in Sources */,
+				1535A1F22982729C00FF398F /* MainView.swift in Sources */,
+				1535A2022982812500FF398F /* FizzBuzzAlgorithmModel.swift in Sources */,
+				1535A1F62982759800FF398F /* BackgroundImageView.swift in Sources */,
 				1535A1E32982726200FF398F /* FizzBuzzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
