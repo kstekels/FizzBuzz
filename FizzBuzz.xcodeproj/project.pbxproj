@@ -17,6 +17,8 @@
 		1535A1FE29827E4D00FF398F /* FizzBuzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1FD29827E4D00FF398F /* FizzBuzzView.swift */; };
 		1535A20029827FC800FF398F /* CodeCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A1FF29827FC800FF398F /* CodeCreatorView.swift */; };
 		1535A2022982812500FF398F /* FizzBuzzAlgorithmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A2012982812500FF398F /* FizzBuzzAlgorithmModel.swift */; };
+		1535A2042982957D00FF398F /* FizzBuzzAlgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A2032982957D00FF398F /* FizzBuzzAlgViewModel.swift */; };
+		1535A207298299DE00FF398F /* String Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535A206298299DE00FF398F /* String Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		1535A1FD29827E4D00FF398F /* FizzBuzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzView.swift; sourceTree = "<group>"; };
 		1535A1FF29827FC800FF398F /* CodeCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCreatorView.swift; sourceTree = "<group>"; };
 		1535A2012982812500FF398F /* FizzBuzzAlgorithmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgorithmModel.swift; sourceTree = "<group>"; };
+		1535A2032982957D00FF398F /* FizzBuzzAlgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgViewModel.swift; sourceTree = "<group>"; };
+		1535A206298299DE00FF398F /* String Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		1535A1E12982726200FF398F /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				1535A205298299C500FF398F /* Extensions */,
 				1535A1E22982726200FF398F /* FizzBuzzApp.swift */,
 				1535A1F7298275B000FF398F /* Model */,
 				1535A1F02982728200FF398F /* View */,
@@ -101,6 +106,7 @@
 		1535A1F8298275BC00FF398F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1535A2032982957D00FF398F /* FizzBuzzAlgViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				1535A1FF29827FC800FF398F /* CodeCreatorView.swift */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		1535A205298299C500FF398F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1535A206298299DE00FF398F /* String Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +211,10 @@
 			files = (
 				1535A1FE29827E4D00FF398F /* FizzBuzzView.swift in Sources */,
 				1535A1F42982749800FF398F /* AboutVIew.swift in Sources */,
+				1535A2042982957D00FF398F /* FizzBuzzAlgViewModel.swift in Sources */,
 				1535A20029827FC800FF398F /* CodeCreatorView.swift in Sources */,
 				1535A1FC29827DE200FF398F /* NiceText.swift in Sources */,
+				1535A207298299DE00FF398F /* String Extensions.swift in Sources */,
 				1535A1F22982729C00FF398F /* MainView.swift in Sources */,
 				1535A2022982812500FF398F /* FizzBuzzAlgorithmModel.swift in Sources */,
 				1535A1F62982759800FF398F /* BackgroundImageView.swift in Sources */,
